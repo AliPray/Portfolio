@@ -42,7 +42,7 @@ export const skillsSection: SkillsSectionType = {
       lottieAnimationFile: '/lottie/skills/data_engineer.json', // Path of Lottie Animation JSON File
       skills: [
         emoji("⚡ Training and Building Machine Learning  Models"),
-        emoji("⚡ building Fast APIS usingg Django & Flask"),
+        emoji("⚡ building Fast APIS using Django & Flask"),
       ],
       softwareSkills: [
         {
@@ -110,10 +110,10 @@ export const educationInfo: EducationType[] = [
   },
   {
     schoolName: 'Secondary School of Jemmel, Monastir',
-    subHeader: 'Baccalaureate Diploma in Technics Science.',
+    subHeader: 'Baccalaureate Diploma in Technical Science.',
     duration: '2013 - 2014',
     desc: '',
-    grade: 'B',
+    grade: 'Fairly Good',
     descBullets: [
     ],
   },
