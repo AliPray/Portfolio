@@ -51,37 +51,6 @@ const Navigation = () => {
                 </Row>
               </div>
               <Nav className="align-items-lg-center ml-lg-auto" navbar>
-<<<<<<< HEAD
-=======
-                {socialLinks.facebook && (
-                  <NavItem>
-                    <NavLink
-                      rel="noopener"
-                      aria-label="Facebook"
-                      className="nav-link-icon"
-                      href={socialLinks.facebook}
-                      target="_blank"
-                    >
-                      <i className="fa fa-facebook-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">Facebook</span>
-                    </NavLink>
-                  </NavItem>
-                )}
-                {socialLinks.instagram && (
-                  <NavItem>
-                    <NavLink
-                      rel="noopener"
-                      aria-label="Instagram"
-                      className="nav-link-icon"
-                      href={socialLinks.instagram}
-                      target="_blank"
-                    >
-                      <i className="fa fa-instagram" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">Instagram</span>
-                    </NavLink>
-                  </NavItem>
-                )}
->>>>>>> 09bd4fd6f7018b17bf1d815da85918642ded0562
                 {socialLinks.github && (
                   <NavItem>
                     <NavLink
@@ -119,15 +88,10 @@ const Navigation = () => {
                       href={socialLinks.whatsapp}
                       target="_blank"
                     >
-<<<<<<< HEAD
                       <i className="fa fa-whatsapp" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Whatsapp
                       </span>
-=======
-                      <i className="fa fa-twitter-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">Twitter</span>
->>>>>>> 09bd4fd6f7018b17bf1d815da85918642ded0562
                     </NavLink>
                   </NavItem>
                 )}

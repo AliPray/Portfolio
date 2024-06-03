@@ -1,13 +1,7 @@
 {
-<<<<<<< HEAD
   "name": "portfolio",
   "version": "1.0.0",
   "description": "AliPray - Missaoui Ali Portfolio Website.",
-=======
-  "name": "developer-portfolio",
-  "version": "2.0.0",
-  "description": "Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.",
->>>>>>> 09bd4fd6f7018b17bf1d815da85918642ded0562
   "main": "index.js",
   "repository": "https://github.com/AliPray",
   "author": "Missaoui Ali",
