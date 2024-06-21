@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "I am a Python developer passionate about machine learning & Data.",
   resumeLink:
-    'https://drive.google.com/file/d/1TxMcug5xVfjUvb-2TbnNc2a6S45kkrnF/view?usp=sharing',
+    'https://drive.google.com/file/d/1Md5Ttxy967sU4W3hbHtIejWwkommK6A_/view?usp=sharing',
 };
 
 export const openSource = {
@@ -35,13 +35,15 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'Machine Learning, Data Engineer, Blockchain',
+  subTitle: 'Machine Learning, Data Engineering, Backend, Web-Scrapping',
   data: [
     {
       title: 'Python Developer',
       lottieAnimationFile: '/lottie/skills/data_engineer.json', // Path of Lottie Animation JSON File
       skills: [
         emoji("⚡ Training and Building Machine Learning  Models"),
+        emoji("⚡ ETL Operations & Data cleaning"),
+        emoji("⚡ Web-Scrapping Data from the Internet"),
         emoji("⚡ building Fast APIS using Django & Flask"),
       ],
       softwareSkills: [
@@ -56,6 +58,10 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: "Flask",
           iconifyTag: "logos:flask",
+        },
+        {
+          skillName: "Docker",
+          iconifyTag: "vscode-icons:file-type-docker",
         },
         {
           skillName: "Tensor Flow",
@@ -105,16 +111,7 @@ export const educationInfo: EducationType[] = [
     desc: '',
     grade: 'A-',
     descBullets: [
-      'Final year Project: Blockchain based Election Web App.',
-    ],
-  },
-  {
-    schoolName: 'Secondary School of Jemmel, Monastir',
-    subHeader: 'Baccalaureate Diploma in Technical Science.',
-    duration: '2013 - 2014',
-    desc: '',
-    grade: 'Fairly Good',
-    descBullets: [
+      'Final year Project: Blockchain-based Election Web-App.',
     ],
   },
 ];
@@ -125,7 +122,18 @@ export const experience: ExperienceType[] = [
     company: 'Flextronics Malaysia, Penang',
     companyLogo: '/img/icons/common/flextronics.png',
     date: 'May 2022 – Aug 2022',
-    desc: 'I worked as a data integration trainee in my internship at Flextronics Malaysia. To qualify for this role, I took Denodo Developer courses which provided a solid foundation in data virtualization. During my internship, I worked with a team to develop data integration solutions for clients, focusing primarily on ETL processes. I utilized Denodo Virtual DataPort to integrate and transform diverse data sources, ensuring seamless data flow and consistency. My responsibilities included creating virtual models to provide unified views of the data, which were then deployed to the QA environment for testing and validation. Additionally, I designed insightful reports to help clients make data-driven decisions. This experience allowed me to collaborate closely with a data integration team, enhancing my technical skills and teamwork abilities.',
+    desc: 'Took Denodo Developer courses as a qualification. Worked with a team to develop data integration solutions for clients (ETL). Data integration using Denodo Virtual data port. Connecting and transforming diverse data sources. Creating virtual models for unified views. Deploy virtual models to QA environment. Designing insightful reports. Collaborating with a data integration team..',
+    // descBullets: [
+    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    // ],
+  },
+  {
+    role: 'ML & Data Engineer ',
+    company: 'IT GEEKS Consultancy, Tunisia (Remote)',
+    companyLogo: '',
+    date: 'Jan 2024 – Present',
+    desc: 'I work as an ML & Data Engineer in IT GEEKS Consultancy. I implement machine learning models using TensorFlow and Keras for anomaly detection in manufacturing plants (In Progress). I develop both desktop apps for offline edge devices and web API-based apps for local network users. I create Python software to efficiently process and transform large CSV datasets. I optimize for accuracy and performance, tailor solutions to client requirements, and provide comprehensive documentation and support. I employ web scraping techniques to extract data from various booking service websites. ',
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -137,12 +145,42 @@ export const projects: ProjectType[] = [
   {
     name: 'E-TASWeeT blockhain voting',
     desc: 'FYP: NextJs ⚛️ web Application for Election purposes. Uses Blockchain ⛓️ Technology: Solidity & Sepolia Ethereum test net.',
-    github: 'https://github.com/AliPray/E-TASWeeT-blockhain-voting.git',
+    github: 'https://github.com/AliPray/E-TASweeT-Bockchain-Voting.git',
   },
   {
-    name: 'Customer Front App',
+    name: 'Customer-Front-App',
     desc: 'Built and integrated customer app with a Django server, enabling OAuth2 authentication for user access with time-bound tokens.',
     github: 'https://github.com/AliPray/customer_front_app.git',
+  },
+  {
+    name: 'Edge-Detection-Image-Processing',
+    desc: 'explore various edge detection techniques in image processing. The primary objective is to apply different edge detection filters on an image and observe the results.',
+    github: 'https://github.com/AliPray/Edge-Detection-Image-Processing.git',
+  },
+  {
+    name: 'Object-Detection-template-sub-image',
+    desc: 'captures a template object image and then detects and compares this object in test images. The detection is based on contour analysis and corner detection.',
+    github: 'https://github.com/AliPray/Object-Detection-template-sub-image.git',
+  },
+  {
+    name: 'Depression-Prediction-Bayes-Naive',
+    desc: 'developing a Naive Bayes model from scratch to predict the presence of depression based on emotion inputs.',
+    github: 'https://github.com/AliPray/Depression-Prediction-Bayes-Naive.git',
+  },
+  {
+    name: 'Neural-Network-Fashion-Mnist',
+    desc: 'Machine Learning Models Trained on Fashion-MNIST Dataset. Single-Layer & Multilayer Model',
+    github: 'https://github.com/AliPray/Neural-Network-Fashion-Mnist.git',
+  },
+  {
+    name: 'Web-Scrapping-Booking.com',
+    desc: 'Web Scrapping Booking.com (Static), Dynamic => (In Progress...)',
+    github: 'https://github.com/AliPray/Web-Scrapping-Booking.com.git',
+  },
+  {
+    name: 'Django-e-commerce-project',
+    desc: 'Building a Django E-Commerce Website (In Progress...)',
+    github: 'https://github.com/AliPray/Django-e-commerce-project.git',
   },
 ];
 
